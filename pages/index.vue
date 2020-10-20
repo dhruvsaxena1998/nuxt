@@ -5,7 +5,12 @@
 </template>
 
 <script>
-export default {}
+import { default as Routes } from '@/utils/routes'
+export default {
+  mounted() {
+    console.log('pages', Routes )
+  },
+}
 </script>
 
 <style>
